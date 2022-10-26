@@ -1,10 +1,19 @@
 <html>
-    <head>
-        <script>
-            
-        </script>
-    </head>
-    <body>
-        <p>Just a test of a simple webpage</p>
-    </body>
+
+<head>
+    <script type="text/javascript">
+        function closeWebview() {
+            AndroidJsInterface.closeWebview();
+        }
+    </script>
+
+</head>
+
+<body>
+    <p>Just a test of a simple webpage</p>
+    <p>Tapping here should close this webview</p>
+
+    <input type="button" value="Close webview" onClick="closeWebview()" />
+</body>
+
 </html>

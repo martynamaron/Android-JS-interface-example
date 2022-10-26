@@ -3,7 +3,7 @@
 <head>
     <script type="text/javascript">
         function closeWebview() {
-            if (UnknownInterface != undefined) {
+            if (typeof UnknownInterface != 'undefined') {
                 UnknownInterface.closeWebview();
             }
             AndroidJsInterface.closeWebview();
